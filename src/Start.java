@@ -27,7 +27,7 @@ public class Start {
 //			para que el player escoja posición
 			int playerPos = scan.nextInt();	
 //			para que no se pueda machacar una posicion.
-			while(playerPositions.contains(playerPos) || cpuPositions.contains(playerPositions)) {
+			while(playerPositions.contains(playerPos) || cpuPositions.contains(playerPos)) {
 				System.out.println("Position taken! Enter a correct Position");
 				playerPos = scan.nextInt();
 			}
